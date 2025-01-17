@@ -1,0 +1,13 @@
+.chart-container {
+    text-align: center;
+  }
+
+  .chart-input {
+    margin-right: 10px;
+  }
+
+  .chart {
+    margin: 20px auto;
+    width: 1200px;
+    height: 800px;
+  }
