@@ -32,7 +32,7 @@ const CandleStickChart = () => {
       candleChartRef.current = chart.addCandlestickSeries();
     }
 
-    //Fetching the default value BTCUSDT after creating the chart
+    //Fetching the default value 'BTCUSDT' after creating the chart
     fetchData();
 
   });
@@ -56,7 +56,7 @@ const CandleStickChart = () => {
         candleChartRef.current.setData(parsedData); // adding the data to the Candleseries
       })
       .catch((error) => {
-        console.error(error); //perventing the error from api to popup
+        console.error(error); //perventing the error from api to popup,it doesn't fix it
       });
   };
 
